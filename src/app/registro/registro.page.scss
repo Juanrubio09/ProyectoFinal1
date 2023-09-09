@@ -1,0 +1,29 @@
+.registro-page {
+    /* Agrega la imagen de fondo */
+  //  background-image: url('../../assets/fondo3.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen */
+    background-position: center; /* Centra la imagen */
+  }
+  
+  .registro-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    padding-top: 220px;
+  
+    ion-item {
+      width: 100%;
+      margin-bottom: 15px;
+  
+      ion-input {
+        border-radius: 5px;
+        padding: 10px;
+      }
+    }
+  
+    ion-button {
+      margin-top: 20px;
+    }
+  }
